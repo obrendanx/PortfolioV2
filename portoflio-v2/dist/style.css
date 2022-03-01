@@ -44,6 +44,8 @@ html{
   text-decoration:none;
   line-height:60px;
   color:#535657;
+  font-family: 'Smooch Sans', sans-serif;
+  font-weight:600;
 }
 .main_head a:visited{
   color:#535657;
@@ -275,4 +277,19 @@ html{
     margin-top:2vh;
   }
   
+}
+
+/* preloader styles */
+#preloader{
+  background: #fff url('port-imgs/loader.gif') no-repeat center center;
+  height:100vh;
+  width:100%;
+  position:fixed;
+  z-index:100;
+}
+
+#preloader h1{
+  text-align:center;
+  margin-top:18%;
+  font-family: 'Smooch Sans', sans-serif;
 }

@@ -72,12 +72,14 @@ html{
   width:100vw;
   background:#535657;
   padding-top:4vh;
+  scroll-margin-top: 50px;
 }
 
 .contact{
   height:100vh;
   width:100vw;
-  background:#4F646F;
+  background:#C5CFAD;
+  scroll-margin-top: 50px;
 }
 
 /* welcome styles */
@@ -203,7 +205,7 @@ html{
 /* contact styles */
 .contact{
   text-align:center;
-  color:#DEE7E7;
+  color:#535657;
 }
 
 .contact h2{
@@ -221,10 +223,9 @@ html{
 }
 
 .social_links a{
-  color:#DEE7E7;
-  
+  color:#535657;
   text-decoration:none;
-  text-shadow: 2px 2px 1px #1f1f1f;
+  text-transform:uppercase;
   transition: 1s;
 }
 
@@ -243,7 +244,8 @@ html{
 .contact_info{
   position:relative;
   top:40%;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Smooch Sans', sans-serif;
+  font-weight:600;
 }
 
 .footer p{

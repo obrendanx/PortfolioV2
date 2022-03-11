@@ -280,7 +280,22 @@ html{
   
   .project h2{
     width:60vw;
-    top:88.3%;
+    top:0;
+    position:relative;
+
+  }
+
+  .project1{
+    background-size: 100vw 55vh;
+  }
+  .project2{
+    background-size: 100vw 55vh;
+  }
+  .project3{
+    background-size: 100vw 55vh;
+  }
+  .project4{
+    background-size: 100vw 55vh;
   }
 }
 
